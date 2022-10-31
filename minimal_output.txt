@@ -1,0 +1,251 @@
+Running the program with file ibm01_mad.dat...
+Input file Scanning completed at 1.75093 seconds.
+Total number of nets: 11507
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 64 , 64 , 2 ) 
+# of one-tree-Nets: 7836 out of 11507 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 64 * 64 ...done!
+Min flare: 30.2
+Max flare: 134.347
+Avg flare: 95.4543
+Total delay: 70710
+Minimum distance flare computation completed at 0.517278 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 64 * 64 ...done!
+Min flare: 28.2001
+Max flare: 130.325
+Avg flare: 89.5529
+Total delay: 70504.6
+Minimum Delay flare computation completed at 0.349048 seconds.
+
+
+
+Running the program with file ibm03_mad.dat...
+Input file Scanning completed at 2.79141 seconds.
+Total number of nets: 21621
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 80 , 64 , 2 ) 
+# of one-tree-Nets: 14951 out of 21621 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 80 * 64 ...done!
+Min flare: 1.02717e-05
+Max flare: 123.145
+Avg flare: 60.1701
+Total delay: 150015
+Minimum distance flare computation completed at 0.862265 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 80 * 64 ...done!
+Min flare: 1.09731e-05
+Max flare: 130.084
+Avg flare: 68.6409
+Total delay: 150134
+Minimum Delay flare computation completed at 0.546272 seconds.
+
+
+
+Running the program with file ibm04_mad.dat...
+Input file Scanning completed at 2.99159 seconds.
+Total number of nets: 26163
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 96 , 64 , 2 ) 
+# of one-tree-Nets: 17317 out of 26163 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 96 * 64 ...done!
+Min flare: 9.80033e-23
+Max flare: 127.187
+Avg flare: 40.8847
+Total delay: 170129
+Minimum distance flare computation completed at 1.09931 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 96 * 64 ...done!
+Min flare: 9.98736e-23
+Max flare: 131.794
+Avg flare: 44.1704
+Total delay: 168965
+Minimum Delay flare computation completed at 0.784822 seconds.
+
+
+
+Running the program with file ibm06_mad.dat...
+Input file Scanning completed at 5.19878 seconds.
+Total number of nets: 33354
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 128 , 64 , 2 ) 
+# of one-tree-Nets: 21746 out of 33354 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 128 * 64 ...done!
+Min flare: 0
+Max flare: 123.311
+Avg flare: 12.4722
+Total delay: 275318
+Minimum distance flare computation completed at 1.99293 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 128 * 64 ...done!
+Min flare: 0
+Max flare: 135.067
+Avg flare: 14.6639
+Total delay: 275335
+Minimum Delay flare computation completed at 1.39338 seconds.
+
+
+Running the program with file ibm07_mad.dat...
+Input file Scanning completed at 7.0585 seconds.
+Total number of nets: 44394
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 192 , 64 , 2 ) 
+# of one-tree-Nets: 27738 out of 44394 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 192 * 64 ...done!
+Min flare: 0
+Max flare: 26.8313
+Avg flare: 0.0313662
+Total delay: 350536
+Minimum distance flare computation completed at 3.83845 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 192 * 64 ...done!
+Min flare: 0
+Max flare: 28.3381
+Avg flare: 0.0341444
+Total delay: 352538
+Minimum Delay flare computation completed at 3.11548 seconds.
+
+
+Running the program with file ibm08_mad.dat...
+Input file Scanning completed at 8.9086 seconds.
+Total number of nets: 47944
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 192 , 64 , 2 ) 
+# of one-tree-Nets: 31407 out of 47944 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 192 * 64 ...done!
+Min flare: 0
+Max flare: 27.5109
+Avg flare: 0.0323947
+Total delay: 438045
+Minimum distance flare computation completed at 4.74407 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 192 * 64 ...done!
+Min flare: 0
+Max flare: 28.7305
+Avg flare: 0.0347094
+Total delay: 439142
+Minimum Delay flare computation completed at 3.12208 seconds.
+
+
+Running the program with file ibm09_mad.dat...
+Input file Scanning completed at 8.13503 seconds.
+Total number of nets: 50393
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 256 , 64 , 2 ) 
+# of one-tree-Nets: 32417 out of 50393 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 256 * 64 ...done!
+Min flare: 0
+Max flare: 47.7252
+Avg flare: 0.162185
+Total delay: 405866
+Minimum distance flare computation completed at 6.42349 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 256 * 64 ...done!
+Min flare: 0
+Max flare: 47.7252
+Avg flare: 0.162185
+Total delay: 408043
+Minimum Delay flare computation completed at 5.49512 seconds.
+
+
+Running the program with file ibm10_mad.dat...
+Input file Scanning completed at 11.837 seconds.
+Total number of nets: 64227
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 256 , 64 , 2 ) 
+# of one-tree-Nets: 37593 out of 64227 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 256 * 64 ...done!
+Min flare: 0
+Max flare: 47.7252
+Avg flare: 0.162185
+Total delay: 615065
+Minimum distance flare computation completed at 6.81743 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 256 * 64 ...done!
+Min flare: 0
+Max flare: 47.7252
+Avg flare: 0.162185
+Total delay: 615734
+Minimum Delay flare computation completed at 5.5048 seconds.
+
+

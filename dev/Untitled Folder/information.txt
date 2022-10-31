@@ -1,0 +1,7 @@
+
+
+Accounted tree registered: Net id 3: line 147
+line 151: tree 0
+line 296: tree 1
+line 441: tree 2
+line 586: tree 3

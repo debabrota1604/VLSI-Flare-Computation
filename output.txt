@@ -1,0 +1,474 @@
+
+Running the program with file ibm01_mad.dat...
+Successfully opened ibm_mad_benchmark/ibm01_mad.dat for reading data
+# of Rows 64, # of Columns 64, # of Layers 2
+Completed getting input
+Design has 11507 initial nets
+the number of layers  2
+grid (cols x rows)  64  x  64
+7738 trees are selected initially
+
+*********** Initial Result quality ***************
+Max_Overflow = 0
+Number_of_overflows = 0
+Total_overflow = 0
+Wire_length = 12509
+Start Gradient 
+Gradient finished  
+Number of iterations = 52
+Integer Solution = 9
+Fractional Solution = 7191.936523
+***********************************************************
+Max_Overflow = 9 Number_of_overflows = 1188 Total_overflow = 2702 Wire_length = 65324
+Program run time in second:11.527660
+Compiling...
+process finished...
+executing program...
+
+Successfully opened ../output/desmal_1.out for reading data
+Input file Scanning completed at 1.75093 seconds.
+Total number of nets: 11507
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 64 , 64 , 2 ) 
+# of one-tree-Nets: 7836 out of 11507 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 64 * 64 ...done!
+Min flare: 30.2
+Max flare: 134.347
+Avg flare: 95.4543
+Total delay: 70710
+Minimum distance flare computation completed at 0.517278 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 64 * 64 ...done!
+Min flare: 28.2001
+Max flare: 130.325
+Avg flare: 89.5529
+Total delay: 70504.6
+Minimum Delay flare computation completed at 0.349048 seconds.
+
+
+
+Running the program with file ibm03_mad.dat...
+
+Successfully opened ibm_mad_benchmark/ibm03_mad.dat for reading data
+# of Rows 80, # of Columns 64, # of Layers 2
+Completed getting input
+Design has 21621 initial nets
+the number of layers  2
+grid (cols x rows)  80  x  64
+14832 trees are selected initially
+
+*********** Initial Result quality ***************
+Max_Overflow = 0
+Number_of_overflows = 0
+Total_overflow = 0
+Wire_length = 23973
+Start Gradient 
+Gradient finished  
+Number of iterations = 47
+Integer Solution = 14
+Fractional Solution = 44098.253906
+***********************************************************
+Max_Overflow = 14 Number_of_overflows = 2184 Total_overflow = 9211 Wire_length = 157082
+Program run time in second:23.646112
+
+Compiling...
+process finished...
+executing program...
+
+Successfully opened ../output/desmal_1.out for reading data
+Input file Scanning completed at 2.79141 seconds.
+Total number of nets: 21621
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 80 , 64 , 2 ) 
+# of one-tree-Nets: 14951 out of 21621 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 80 * 64 ...done!
+Min flare: 1.02717e-05
+Max flare: 123.145
+Avg flare: 60.1701
+Total delay: 150015
+Minimum distance flare computation completed at 0.862265 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 80 * 64 ...done!
+Min flare: 1.09731e-05
+Max flare: 130.084
+Avg flare: 68.6409
+Total delay: 150134
+Minimum Delay flare computation completed at 0.546272 seconds.
+
+
+
+Running the program with file ibm04_mad.dat...
+
+Successfully opened ibm_mad_benchmark/ibm04_mad.dat for reading data
+# of Rows 96, # of Columns 64, # of Layers 2
+Completed getting input
+Design has 26163 initial nets
+the number of layers  2
+grid (cols x rows)  96  x  64
+17126 trees are selected initially
+
+*********** Initial Result quality ***************
+Max_Overflow = 0
+Number_of_overflows = 0
+Total_overflow = 0
+Wire_length = 31246
+Start Gradient 
+Gradient finished  
+Number of iterations = 599
+Integer Solution = 8
+Fractional Solution = 3106.174316
+***********************************************************
+Max_Overflow = 8 Number_of_overflows = 1426 Total_overflow = 2997 Wire_length = 175478
+Program run time in second:34.508244
+
+Compiling...
+process finished...
+executing program...
+
+Successfully opened ../output/desmal_1.out for reading data
+Input file Scanning completed at 2.99159 seconds.
+Total number of nets: 26163
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 96 , 64 , 2 ) 
+# of one-tree-Nets: 17317 out of 26163 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 96 * 64 ...done!
+Min flare: 9.80033e-23
+Max flare: 127.187
+Avg flare: 40.8847
+Total delay: 170129
+Minimum distance flare computation completed at 1.09931 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 96 * 64 ...done!
+Min flare: 9.98736e-23
+Max flare: 131.794
+Avg flare: 44.1704
+Total delay: 168965
+Minimum Delay flare computation completed at 0.784822 seconds.
+
+
+
+Running the program with file ibm06_mad.dat...
+
+Successfully opened ibm_mad_benchmark/ibm06_mad.dat for reading data
+# of Rows 128, # of Columns 64, # of Layers 2
+Completed getting input
+Design has 33354 initial nets
+the number of layers  2
+grid (cols x rows)  128  x  64
+21518 trees are selected initially
+
+*********** Initial Result quality ***************
+Max_Overflow = 0
+Number_of_overflows = 0
+Total_overflow = 0
+Wire_length = 37149
+Start Gradient 
+Gradient finished  
+Number of iterations = 22
+Integer Solution = 25
+Fractional Solution = 333290.250000
+***********************************************************
+Max_Overflow = 25 Number_of_overflows = 5239 Total_overflow = 38125 Wire_length = 295275
+Program run time in second:47.002058
+
+Compiling...
+process finished...
+executing program...
+
+Successfully opened ../output/desmal_1.out for reading data
+Input file Scanning completed at 5.19878 seconds.
+Total number of nets: 33354
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 128 , 64 , 2 ) 
+# of one-tree-Nets: 21746 out of 33354 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 128 * 64 ...done!
+Min flare: 0
+Max flare: 123.311
+Avg flare: 12.4722
+Total delay: 275318
+Minimum distance flare computation completed at 1.99293 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 128 * 64 ...done!
+Min flare: 0
+Max flare: 135.067
+Avg flare: 14.6639
+Total delay: 275335
+Minimum Delay flare computation completed at 1.39338 seconds.
+
+
+Running the program with file ibm07_mad.dat...
+
+Successfully opened ibm_mad_benchmark/ibm07_mad.dat for reading data
+# of Rows 192, # of Columns 64, # of Layers 2
+Completed getting input
+Design has 44394 initial nets
+the number of layers  2
+grid (cols x rows)  192  x  64
+27457 trees are selected initially
+
+*********** Initial Result quality ***************
+Max_Overflow = 0
+Number_of_overflows = 0
+Total_overflow = 0
+Wire_length = 53880
+Start Gradient 
+Gradient finished  
+Number of iterations = 39
+Integer Solution = 17
+Fractional Solution = 137154.500000
+***********************************************************
+Max_Overflow = 17 Number_of_overflows = 4860 Total_overflow = 23502 Wire_length = 394009
+Program run time in second:58.602963
+
+Compiling...
+process finished...
+executing program...
+
+Successfully opened ../output/desmal_1.out for reading data
+Input file Scanning completed at 7.0585 seconds.
+Total number of nets: 44394
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 192 , 64 , 2 ) 
+# of one-tree-Nets: 27738 out of 44394 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 192 * 64 ...done!
+Min flare: 0
+Max flare: 26.8313
+Avg flare: 0.0313662
+Total delay: 350536
+Minimum distance flare computation completed at 3.83845 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 192 * 64 ...done!
+Min flare: 0
+Max flare: 28.3381
+Avg flare: 0.0341444
+Total delay: 352538
+Minimum Delay flare computation completed at 3.11548 seconds.
+
+
+Running the program with file ibm08_mad.dat...
+
+Successfully opened ibm_mad_benchmark/ibm08_mad.dat for reading data
+# of Rows 192, # of Columns 64, # of Layers 2
+Completed getting input
+Design has 47944 initial nets
+the number of layers  2
+grid (cols x rows)  192  x  64
+31068 trees are selected initially
+
+*********** Initial Result quality ***************
+Max_Overflow = 0
+Number_of_overflows = 0
+Total_overflow = 0
+Wire_length = 47082
+Start Gradient 
+Gradient finished  
+Number of iterations = 33
+Integer Solution = 20
+Fractional Solution = 172300.328125
+***********************************************************
+Max_Overflow = 20 Number_of_overflows = 5827 Total_overflow = 27811 Wire_length = 441738
+Program run time in second:119.048225
+
+Compiling...
+process finished...
+executing program...
+
+Successfully opened ../output/desmal_1.out for reading data
+Input file Scanning completed at 8.9086 seconds.
+Total number of nets: 47944
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 192 , 64 , 2 ) 
+# of one-tree-Nets: 31407 out of 47944 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 192 * 64 ...done!
+Min flare: 0
+Max flare: 27.5109
+Avg flare: 0.0323947
+Total delay: 438045
+Minimum distance flare computation completed at 4.74407 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 192 * 64 ...done!
+Min flare: 0
+Max flare: 28.7305
+Avg flare: 0.0347094
+Total delay: 439142
+Minimum Delay flare computation completed at 3.12208 seconds.
+
+
+Running the program with file ibm09_mad.dat...
+
+Successfully opened ibm_mad_benchmark/ibm09_mad.dat for reading data
+# of Rows 256, # of Columns 64, # of Layers 2
+Completed getting input
+Design has 50393 initial nets
+the number of layers  2
+grid (cols x rows)  256  x  64
+32145 trees are selected initially
+
+*********** Initial Result quality ***************
+Max_Overflow = 1
+Number_of_overflows = 1
+Total_overflow = 1
+Wire_length = 56825
+Start Gradient 
+Gradient finished  
+Number of iterations = 16
+Integer Solution = 22
+Fractional Solution = 529080.312500
+***********************************************************
+Max_Overflow = 22 Number_of_overflows = 11117 Total_overflow = 68136 Wire_length = 443616
+Program run time in second:74.329342
+
+Compiling...
+process finished...
+executing program...
+
+Successfully opened ../output/desmal_1.out for reading data
+Input file Scanning completed at 8.13503 seconds.
+Total number of nets: 50393
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 256 , 64 , 2 ) 
+# of one-tree-Nets: 32417 out of 50393 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 256 * 64 ...done!
+Min flare: 0
+Max flare: 47.7252
+Avg flare: 0.162185
+Total delay: 405866
+Minimum distance flare computation completed at 6.42349 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 256 * 64 ...done!
+Min flare: 0
+Max flare: 47.7252
+Avg flare: 0.162185
+Total delay: 408043
+Minimum Delay flare computation completed at 5.49512 seconds.
+
+
+Running the program with file ibm10_mad.dat...
+
+Successfully opened ibm_mad_benchmark/ibm10_mad.dat for reading data
+# of Rows 256, # of Columns 64, # of Layers 2
+Completed getting input
+Design has 64227 initial nets
+the number of layers  2
+grid (cols x rows)  256  x  64
+37126 trees are selected initially
+
+*********** Initial Result quality ***************
+Max_Overflow = 0
+Number_of_overflows = 0
+Total_overflow = 0
+Wire_length = 66206
+Start Gradient 
+Gradient finished  
+Number of iterations = 61
+Integer Solution = 22
+Fractional Solution = 175179.687500
+***********************************************************
+Max_Overflow = 22 Number_of_overflows = 5245 Total_overflow = 28066 Wire_length = 627331
+Program run time in second:111.450191
+
+Compiling...
+process finished...
+executing program...
+
+Successfully opened ../output/desmal_1.out for reading data
+Input file Scanning completed at 11.837 seconds.
+Total number of nets: 64227
+Maximum trees per net: 8
+Maximum iterations: 11
+Max qq: 2
+Dimension: (x,y,z) : ( 256 , 64 , 2 ) 
+# of one-tree-Nets: 37593 out of 64227 nets.
+All the trees under a multi-tree net have the same bounding box.
+
+Calculating minimum distance flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 256 * 64 ...done!
+Min flare: 0
+Max flare: 47.7252
+Avg flare: 0.162185
+Total delay: 615065
+Minimum distance flare computation completed at 6.81743 seconds.
+
+Calculating minimum delay flare...
+Calculating occupancy matrix and extending it to proper size...done! 
+Generating Kernel for convolution...done! 
+Starting convolution for extended input  matrix 256 * 64 ...done!
+Min flare: 0
+Max flare: 47.7252
+Avg flare: 0.162185
+Total delay: 615734
+Minimum Delay flare computation completed at 5.5048 seconds.
+
+

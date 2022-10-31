@@ -1,0 +1,351 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ATF	../include/input_handler.h	/^  float ATF[MaxStdPins];  \/\/arrival time - fall$/;"	m	struct:__anon4
+ATR	../include/input_handler.h	/^  float ATR[MaxStdPins];  \/\/arrival time - rise$/;"	m	struct:__anon4
+AT_fall	GenRoute.cpp	/^float AT_rise, AT_fall;		\/\/ arrival time for primary inputs$/;"	v
+AT_rise	GenRoute.cpp	/^float AT_rise, AT_fall;		\/\/ arrival time for primary inputs$/;"	v
+AddGE	Gradient.cpp	/^AddGE (int t, int NewEdge)      \/\/Add global edge in list GE[t]$/;"	f
+AddGE	Gradient2.cpp	/^AddGE (int t, int NewEdge)      \/\/Add global edge in list GE[t]$/;"	f
+AddTree	GenTrees.cpp	/^AddTree (int s, TNET * NewTree) \/\/Add current tree in the list TreeList[s]$/;"	f
+Adj_Node_List	Routing.cpp	/^TNODELIST **Adj_Node_List;$/;"	v
+BigFloat	../include/input_handler.h	18;"	d
+BlifFName	../include/input_handler.h	43;"	d
+C_0	../include/routing.h	/^  float C_0;                     \/\/total tree capacitance$/;"	m	struct:tnetwork
+CheckNode	mad_new.cpp	/^CheckNode (MadNode* curNode)$/;"	f
+Cload	../include/input_handler.h	/^  float Cload;                 \/\/load capacitance$/;"	m	struct:__anon6
+CompNode	../include/mad.h	/^typedef int (*CompNode)(MadNode* node1, MadNode* node2);$/;"	t
+Critical	../include/input_handler.h	/^  short Critical;           \/\/criticality of the net$/;"	m	struct:__anon6
+Critical	../include/input_handler.h	/^  short Critical; \/\/Criticality of the node$/;"	m	struct:__anon5
+CriticalDelay	../include/routing.h	/^  float CriticalDelay;           \/\/critical delay in tree$/;"	m	struct:tnetwork
+D_k	../include/routing.h	/^  float D_k;        \/\/D_k=\\sum_{(i,j)\\in P_k} d_{ij}$/;"	m	struct:__anon10
+Delay	../include/input_handler.h	/^  float Delay;    \/\/Pin routing delay$/;"	m	struct:__anon5
+Delay_in_critical_sink	../include/routing.h	/^  float Delay_in_critical_sink;  \/\/if net is critical, then this is delay in cr sink$/;"	m	struct:tnetwork
+DeleteTree	GenTrees.cpp	/^DeleteTree (int s, TNET * WorstTree)    \/\/delete WorstTree from TreeList[s]$/;"	f
+EXTERN_H	../include/extern.h	3;"	d
+EastResource	../include/routing.h	/^  int   EastResource;  \/\/east edge capacity (resource)$/;"	m	struct:__anon9
+Edge	GenRoute.cpp	/^TEDGE *Edge;			\/\/ Aray with edge information$/;"	v
+EdgeDelay	../include/routing.h	/^  float EdgeDelay;  \/\/d_{ij} - edge delay pred[node]->node$/;"	m	struct:__anon10
+EdgeNumber	GenRoute.cpp	/^int EdgeNumber;			\/\/ number of edges$/;"	v
+EndFunc	../include/routing.h	148;"	d
+EndFunc	../include/routing.h	151;"	d
+EnterFunc	../include/routing.h	147;"	d
+EnterFunc	../include/routing.h	152;"	d
+FieldStr	../include/input_handler.h	/^typedef char FieldStr[MaxFieldLength];$/;"	t
+GE	Gradient.cpp	/^TNODELIST **GE;                 \/\/GE[s] - list of global edges for tree s$/;"	v
+GE	Gradient2.cpp	/^TNODELIST **GE;                 \/\/GE[s] - list of global edges for tree s$/;"	v
+Gate	GenRoute.cpp	/^TGATE *Gate;			\/\/ Array with gate information$/;"	v
+GateID	../include/input_handler.h	/^  int   GateID;   \/\/Gate ID$/;"	m	struct:__anon5
+GateNumber	GenRoute.cpp	/^int GateNumber;			\/\/ number of gates$/;"	v
+GateRank	GenRoute.cpp	/^int *GateRank;			\/\/ Gate rank array$/;"	v
+Gen_Trees	GenTrees.cpp	/^Gen_Trees (int s, TNET * CurNet)        \/\/input: CurNet - current net$/;"	f
+GenlibFName	../include/input_handler.h	41;"	d
+GlobalNode	Routing.cpp	/^TGLOBALNODE *GlobalNode;        \/\/Array with data for nodes in global graph$/;"	v
+GlobalResource	GlobalResource.cpp	/^GlobalResource (int s)          \/\/recalculate the resources of global edges (nodes)$/;"	f
+Gradient	Gradient.cpp	/^Gradient (float accuracy)       \/\/ selects one tree from each Q^s=TreeList[s]$/;"	f
+Gradient	Gradient2.cpp	/^Gradient (float accuracy)       \/\/ selects one tree from each Q^s=TreeList[s]$/;"	f
+GriFName	../include/input_handler.h	40;"	d
+IMAD_q	IMAD_q.cpp	/^IMAD_q (int s, TNET * CurNet, float r_0, int N, int N_All, TNODE * Node_All,$/;"	f
+IMAD_q	mad_new.cpp	/^IMAD_q (int s, TNET * CurNet, float r_0, int N, int N_All, TNODE * Node_All,$/;"	f
+INIT_NODECOST	../include/mad.h	36;"	d
+INIT_QUEUE_SIZE	../include/prioQueue.h	11;"	d
+INPUTHANDLER_H	../include/input_handler.h	2;"	d
+INV	../include/input_handler.h	61;"	d
+Id	../include/input_handler.h	/^{ int   Id;                    \/\/net #$/;"	m	struct:__anon6
+Id	../include/input_handler.h	/^{ short Id;       \/\/layer's #$/;"	m	struct:__anon1
+Id	../include/routing.h	/^  int   Id;            \/\/node's #$/;"	m	struct:__anon9
+Id	../include/routing.h	/^{ int   Id;                      \/\/net #$/;"	m	struct:tnetwork
+Id	../include/routing.h	/^{ short Id;       \/\/layer's #$/;"	m	struct:__anon8
+InQueue	../include/mad.h	18;"	d
+InSinkPath	../include/mad.h	22;"	d
+InTree	../include/mad.h	14;"	d
+InitDataStructure	ReadData.cpp	/^InitDataStructure (const char *inputFileName)   \/\/read data from file *.dat$/;"	f
+InitPrioQueue	prioQueue.cpp	/^InitPrioQueue (PrioQueue* queue, prioCompFunc cmpf, prioGetPos gpf, $/;"	f
+InpFName	../include/input_handler.h	38;"	d
+InpFName	../include/routing.h	11;"	d
+InpNet	GenRoute.cpp	/^TSNET *InpNet;			\/\/ Array with input net data$/;"	v
+InpStr	../include/input_handler.h	/^typedef char InpStr[MaxInpStrLength];$/;"	t
+InpStr	../include/routing.h	/^typedef char InpStr[MaxInpStrLength];$/;"	t
+InputBlif	InputGenlib.cpp	/^InputBlif()$/;"	f
+InputGenlib	InputGenlib.cpp	/^InputGenlib()$/;"	f
+InputGri	InputGri.cpp	/^InputGri()$/;"	f
+InputSch	InputSch.cpp	/^InputSch()$/;"	f
+Layer	GenRoute.cpp	/^TLAYER *Layer;			\/\/ Array with data for layers$/;"	v
+Layer	Routing.cpp	/^TLAYER *Layer;                  \/\/Array with data for layers$/;"	v
+LibID	../include/input_handler.h	/^  short LibID;    \/\/standard library number$/;"	m	struct:__anon4
+Limit_Overflow	../include/routing.h	34;"	d
+MAD	mad.cpp	/^MAD(int s, TNET * CurNet, float r_0, int N, int N_All, TNODE * Node_All,$/;"	f
+MAD	mad_new.cpp	/^MAD (int s, TNET * CurNet, float r_0, int N, int N_All, TNODE * Node_All,$/;"	f
+MAD_H	../include/mad.h	2;"	d
+MAD_TREE_FREE	../include/mad.h	6;"	d
+MAD_TREE_INQUEUE	../include/mad.h	8;"	d
+MAD_TREE_IN_SINK_PATH	../include/mad.h	9;"	d
+MAD_TREE_USED	../include/mad.h	7;"	d
+MAD_base	mad_new.cpp	/^MAD_base (int s, TNET * CurNet, float r_0, int N, int N_All, TNODE * Node_All,$/;"	f
+MAX_CAPACITY	WriteRoutSol.cpp	16;"	d	file:
+MAX_FLOAT	../include/mad.h	12;"	d
+MAX_INT	../include/mad.h	11;"	d
+MIN_MIN_RESOURCE	mad_new.cpp	11;"	d	file:
+MadEdge	../include/mad.h	/^} MadEdge;$/;"	t	typeref:struct:mad_edge
+MadEdgeCost	../include/mad.h	/^} MadEdgeCost;$/;"	t	typeref:struct:mad_edge_cost
+MadNode	../include/mad.h	/^} MadNode;$/;"	t	typeref:struct:mad_node
+MadNodeQueue	../include/mad.h	/^} MadNodeQueue;$/;"	t	typeref:struct:priorityQueue
+MaxFieldLength	../include/input_handler.h	13;"	d
+MaxFloat	../include/input_handler.h	59;"	d
+MaxFloat	../include/routing.h	32;"	d
+MaxInpStrLength	../include/input_handler.h	12;"	d
+MaxInpStrLength	../include/routing.h	21;"	d
+MaxInt	../include/input_handler.h	60;"	d
+MaxInt	../include/routing.h	33;"	d
+MaxIter	../include/routing.h	19;"	d
+MaxLayerNumber	../include/input_handler.h	15;"	d
+MaxNameLength	../include/input_handler.h	14;"	d
+MaxNameLength	../include/routing.h	22;"	d
+MaxSinkNumber	../include/input_handler.h	17;"	d
+MaxStdPins	../include/input_handler.h	16;"	d
+Max_Number_of_Trees	../include/routing.h	18;"	d
+Max_qq	../include/routing.h	20;"	d
+N	GenTrees.cpp	/^int N, N_All;                   \/\/N_All is the number of all nodes in Hanan graph$/;"	v
+NOINV	../include/input_handler.h	62;"	d
+N_All	GenTrees.cpp	/^int N, N_All;                   \/\/N_All is the number of all nodes in Hanan graph$/;"	v
+N_Glob_Arcs	Routing.cpp	/^int N_Glob_Arcs;                \/\/number of global north-east-up arcs$/;"	v
+Name	../include/input_handler.h	/^  char Name[3];   \/\/ pin name$/;"	m	struct:__anon2
+Name	../include/input_handler.h	/^  char Name[MaxNameLength];    \/\/ standard gate name$/;"	m	struct:__anon3
+Name	../include/input_handler.h	/^  char Name[MaxNameLength];    \/\/gate name$/;"	m	struct:__anon4
+Name	../include/input_handler.h	/^  char Name[MaxNameLength];    \/\/net name$/;"	m	struct:__anon6
+NameStr	../include/input_handler.h	/^typedef char NameStr[MaxNameLength];$/;"	t
+NameStr	../include/routing.h	/^typedef char NameStr[MaxNameLength];$/;"	t
+Net	Routing.cpp	/^TNET *Net;                      \/\/Array with nets data$/;"	v
+NetOrderPrty	RankCalc.cpp	/^void NetOrderPrty()$/;"	f
+NetOrderRank	RankCalc.cpp	/^void NetOrderRank()$/;"	f
+NetPrty	GenRoute.cpp	/^int *NetPrty;			\/\/ Net priority array$/;"	v
+NetRank	GenRoute.cpp	/^int *NetRank;			\/\/ Net rank array$/;"	v
+Net_Tree	Routing.cpp	/^TNET *Net_Tree;                 \/\/Array with infor for net's tree$/;"	v
+No	../include/routing.h	/^  int   No;         \/\/node's # in global graph$/;"	m	struct:__anon10
+Node	../include/routing.h	/^{ int              Node; \/\/# of 1st adjacent node$/;"	m	struct:tnodelist
+NodeCost	../include/mad.h	/^} NodeCost;$/;"	t	typeref:struct:nodeCost
+NorthResource	../include/routing.h	/^  int   NorthResource; \/\/north edge capacity (resource)$/;"	m	struct:__anon9
+Number	../include/routing.h	/^  int   Number;                  \/\/total number of sinks (nodes)$/;"	m	struct:tnetwork
+Number_of_Nets	GenRoute.cpp	/^int Number_of_Nets;		\/\/ number of nets in logical network$/;"	v
+Number_of_Nets	Routing.cpp	/^int Number_of_Nets;             \/\/number of nets in logical network$/;"	v
+Number_of_glob_nodes	Routing.cpp	/^int Number_of_glob_nodes;       \/\/number of nodes in global graph$/;"	v
+OutFName	../include/input_handler.h	39;"	d
+OutFName1	../include/routing.h	12;"	d
+OutFName2	../include/routing.h	13;"	d
+OutFName3	../include/routing.h	14;"	d
+PARENT	../include/prioQueue.h	56;"	d
+POCap	GenRoute.cpp	/^float POCap;			\/\/ capacitance of primary outputs$/;"	v
+PRINT_TNODE	../include/routing.h	88;"	d
+PRIOQUEUE_H	../include/prioQueue.h	3;"	d
+Pin2Net	../include/input_handler.h	/^  int Pin2Net[MaxStdPins]; \/\/ reference net number for each pin$/;"	m	struct:__anon4
+PinID	../include/input_handler.h	/^  short PinID;    \/\/Pin ID in the gate$/;"	m	struct:__anon5
+PinId	../include/routing.h	/^{ short PinId;      \/\/Pin # in net$/;"	m	struct:__anon10
+PinNum	../include/input_handler.h	/^  short PinNum;                \/\/ number of pins (0 - output)$/;"	m	struct:__anon3
+Pins	../include/input_handler.h	/^  TSTDPIN Pins[MaxStdPins];    \/\/ array of pins$/;"	m	struct:__anon3
+PrInpNumber	GenRoute.cpp	/^int PrInpNumber;		\/\/ number of primary inputs$/;"	v
+PrOutNumber	GenRoute.cpp	/^int PrOutNumber;		\/\/ number of primary outputs$/;"	v
+PrintDebug	../include/routing.h	149;"	d
+PrintDebug	../include/routing.h	153;"	d
+PrintNet	Debug.cpp	/^PrintNet (TNET* net, FILE* fptr)$/;"	f
+PrintNode	Debug.cpp	/^PrintNode (TNODE* node, FILE* fptr)$/;"	f
+PrintSink	Debug.cpp	/^PrintSink (TNODE* sink, FILE* fptr)$/;"	f
+PrioQueue	../include/prioQueue.h	/^typedef struct PrioQueue {$/;"	s
+PrioQueue	../include/prioQueue.h	/^} PrioQueue;$/;"	t	typeref:struct:PrioQueue
+ROUTING_H	../include/routing.h	2;"	d
+RPI_fall	GenRoute.cpp	/^float RPI_rise, RPI_fall;	\/\/ resistance of primary inputs$/;"	v
+RPI_rise	GenRoute.cpp	/^float RPI_rise, RPI_fall;	\/\/ resistance of primary inputs$/;"	v
+RTF	../include/input_handler.h	/^  float RTF[MaxStdPins];  \/\/required time - fall$/;"	m	struct:__anon4
+RTR	../include/input_handler.h	/^  float RTR[MaxStdPins];  \/\/required time - rise$/;"	m	struct:__anon4
+RT_fall	GenRoute.cpp	/^float RT_rise, RT_fall;		\/\/ required time for primary outputs$/;"	v
+RT_rise	GenRoute.cpp	/^float RT_rise, RT_fall;		\/\/ required time for primary outputs$/;"	v
+RankCount	RankCalc.cpp	/^void RankCount()$/;"	f
+ResetInQueue	../include/mad.h	20;"	d
+ResetInSinkPath	../include/mad.h	24;"	d
+ResetInTree	../include/mad.h	16;"	d
+SchFName	../include/input_handler.h	42;"	d
+Selected	Routing.cpp	/^short *Selected;$/;"	v
+SelectedNumber	Routing.cpp	/^int SelectedNumber;$/;"	v
+SetInQueue	../include/mad.h	19;"	d
+SetInSinkPath	../include/mad.h	23;"	d
+SetInTree	../include/mad.h	15;"	d
+Sink	../include/input_handler.h	/^  TSNODE Sink[MaxSinkNumber];  \/\/array of sinks$/;"	m	struct:__anon6
+Sink	../include/routing.h	/^  TNODE *Sink;                   \/\/array of sinks (nodes)$/;"	m	struct:tnetwork
+SinkNumber	../include/input_handler.h	/^  short SinkNumber;            \/\/number of sinks including the source$/;"	m	struct:__anon6
+Size_X	GenRoute.cpp	/^int Size_X;			\/\/ grid of$/;"	v
+Size_X	Routing.cpp	/^int Size_X;                     \/\/grid of...$/;"	v
+Size_Y	GenRoute.cpp	/^int Size_Y;			\/\/ (Size_X+1) x (Size_Y+1) x Size_Z$/;"	v
+Size_Y	Routing.cpp	/^int Size_Y;                     \/\/ ...(Size_X+1) x (Size_Y+1) x Size_Z...$/;"	v
+Size_Z	GenRoute.cpp	/^short Size_Z;			\/\/ dimension$/;"	v
+Size_Z	Routing.cpp	/^short Size_Z;                   \/\/...dimension$/;"	v
+SortedNet	GenRoute.cpp	/^int *SortedNet;			\/\/ Sorted net array (index only)$/;"	v
+StdGate	GenRoute.cpp	/^TSTDGATE *StdGate;		\/\/ Aray with srandard gate information$/;"	v
+StdGateNumber	GenRoute.cpp	/^int StdGateNumber;		\/\/ number of standard gates$/;"	v
+SubtreeCap	../include/routing.h	/^  float SubtreeCap; \/\/total capacitance of subtree with root in the node$/;"	m	struct:__anon10
+TEDGE	../include/input_handler.h	/^} TEDGE;$/;"	t	typeref:struct:__anon7
+TGATE	../include/input_handler.h	/^} TGATE;$/;"	t	typeref:struct:__anon4
+TGLOBALNODE	../include/routing.h	/^} TGLOBALNODE;$/;"	t	typeref:struct:__anon9
+TLAYER	../include/input_handler.h	/^} TLAYER;$/;"	t	typeref:struct:__anon1
+TLAYER	../include/routing.h	/^} TLAYER;$/;"	t	typeref:struct:__anon8
+TNET	../include/routing.h	/^} TNET;$/;"	t	typeref:struct:tnetwork
+TNODE	../include/routing.h	/^} TNODE;$/;"	t	typeref:struct:__anon10
+TNODELIST	../include/routing.h	/^} TNODELIST;$/;"	t	typeref:struct:tnodelist
+TSNET	../include/input_handler.h	/^} TSNET;$/;"	t	typeref:struct:__anon6
+TSNODE	../include/input_handler.h	/^} TSNODE;$/;"	t	typeref:struct:__anon5
+TSTDGATE	../include/input_handler.h	/^} TSTDGATE;$/;"	t	typeref:struct:__anon3
+TSTDPIN	../include/input_handler.h	/^} TSTDPIN;$/;"	t	typeref:struct:__anon2
+TimeFName	../include/input_handler.h	44;"	d
+Timing	Timing.cpp	/^Timing()$/;"	f
+Tracks	../include/input_handler.h	/^  int   Tracks;   \/\/max number of wires per bin$/;"	m	struct:__anon1
+Tracks	../include/routing.h	/^  int   Tracks;   \/\/max number of wires per bin$/;"	m	struct:__anon8
+TreeList	Routing.cpp	/^TNET **TreeList;                \/\/Array of pointers on the first tree in Q^s$/;"	v
+Tree_pred	mad.cpp	/^int *Tree_pred;			\/\/Tree_pred[j] is the predecessor node for j$/;"	v
+Tree_pred	mad_new.cpp	/^int *Tree_pred;        \/\/Tree_pred[j] is the predecessor node for j$/;"	v
+Trees_in_Q	Routing.cpp	/^int *Trees_in_Q;                \/\/array, Trees_in_Q[s]=cardinality of Q^s$/;"	v
+UNKNOWN	../include/input_handler.h	63;"	d
+UpResource	../include/routing.h	/^  int   UpResource;    \/\/up edge capacity (resource)$/;"	m	struct:__anon9
+UpTracks	../include/input_handler.h	/^  int   UpTracks; \/\/max number of wires per up via$/;"	m	struct:__anon1
+UpTracks	../include/routing.h	/^  int   UpTracks; \/\/max number of wires per up via$/;"	m	struct:__anon8
+VERBOSE	../include/input_handler.h	10;"	d
+VertexNumber	GenRoute.cpp	/^int VertexNumber;		\/\/ total number of gates and primary in\/out$/;"	v
+WriteDat	WriteDat.cpp	/^WriteDat()$/;"	f
+WriteSol	WriteRoutSol.cpp	/^WriteSol ()                     \/\/write solution into the files *_1.out and *_2.out$/;"	f
+aSize	../include/prioQueue.h	/^  int      aSize;    \/* Array size, space allocated     *\/$/;"	m	struct:PrioQueue
+arraySize	../include/mad.h	/^  int           arraySize;$/;"	m	struct:priorityQueue
+calculateCost	mad_new.cpp	/^calculateCost (NodeCost* srcCost, MadEdge* edge, NodeCost* retCost) $/;"	f
+cap	../include/input_handler.h	/^  float cap;      \/\/ input capacitance$/;"	m	struct:__anon2
+cap	../include/input_handler.h	/^  float cap;      \/\/capacitance$/;"	m	struct:__anon1
+cap	../include/mad.h	/^  float cap;$/;"	m	struct:nodeCost
+cap	../include/routing.h	/^  float cap;        \/\/node capacitance=sum of capacirences of sinks in this node$/;"	m	struct:__anon10
+cap	../include/routing.h	/^  float cap;      \/\/capacitance$/;"	m	struct:__anon8
+capVal	../include/mad.h	/^  float            capVal;$/;"	m	struct:mad_edge_cost
+compFunc	../include/prioQueue.h	/^  prioCompFunc  compFunc;  \/* Function pointer to compare two elements *\/$/;"	m	struct:PrioQueue
+compPrioNode	mad_new.cpp	/^compPrioNode (void* elem1, void* elem2)$/;"	f	file:
+compareCost	mad_new.cpp	/^compareCost (NodeCost* node1, NodeCost* node2)$/;"	f
+compareFunc	../include/mad.h	/^  CompNode*     compareFunc;$/;"	m	struct:priorityQueue
+cost	../include/mad.h	/^  MadEdgeCost*     cost;$/;"	m	struct:mad_edge
+cost	../include/mad.h	/^  NodeCost*        cost;$/;"	m	struct:mad_node
+critical	../include/routing.h	/^  short critical;                \/\/critical=1 if the net is critical$/;"	m	struct:tnetwork
+critical	../include/routing.h	/^  short critical;   \/\/critical=1 if the sink is critical$/;"	m	struct:__anon10
+d	../include/routing.h	/^  int   d;          \/\/# of down neighbor node$/;"	m	struct:__anon10
+delay	../include/input_handler.h	/^  float delay;$/;"	m	struct:__anon7
+delay	../include/mad.h	/^  float            delay;$/;"	m	struct:mad_edge_cost
+delay	../include/routing.h	/^  float delay;      \/\/delay to node in the last routing tree$/;"	m	struct:__anon10
+delay_f	../include/input_handler.h	/^  float delay_f;  \/\/ fall delay$/;"	m	struct:__anon2
+delay_r	../include/input_handler.h	/^  float delay_r;  \/\/ rise delay$/;"	m	struct:__anon2
+dir	../include/input_handler.h	/^  short dir;      \/\/direction of routing (1=hor or 2=ver)$/;"	m	struct:__anon1
+dir	../include/routing.h	/^  short dir;      \/\/direction of routing (1=hor or 2=ver)$/;"	m	struct:__anon8
+direction	../include/mad.h	/^  short            direction;$/;"	m	struct:mad_edge
+down	../include/input_handler.h	58;"	d
+down	../include/routing.h	31;"	d
+drive	../include/input_handler.h	/^  float drive;                 \/\/root resistance$/;"	m	struct:__anon6
+drive	../include/routing.h	/^  float drive;                   \/\/root resistance r_0$/;"	m	struct:tnetwork
+e	../include/routing.h	/^  int   e;          \/\/# of east neighbor node$/;"	m	struct:__anon10
+east	../include/input_handler.h	55;"	d
+east	../include/routing.h	28;"	d
+edgeList	../include/mad.h	/^  struct mad_edge* edgeList;$/;"	m	struct:mad_node	typeref:struct:mad_node::mad_edge
+elems	../include/prioQueue.h	/^  void **  elems;    \/* Pointer to the array, dynamically managed *\/$/;"	m	struct:PrioQueue
+entries	../include/mad.h	/^  MadNode**     entries;$/;"	m	struct:priorityQueue
+freeNodeGraph	mad_new.cpp	/^freeNodeGraph (MadNode *nodes, int N_All, int incremental)$/;"	f
+getPos	../include/prioQueue.h	/^  prioGetPos    getPos;    \/* Function to get elem position in the queue *\/$/;"	m	struct:PrioQueue
+getPrioPos	mad_new.cpp	/^getPrioPos (void *elem) $/;"	f	file:
+hor	../include/input_handler.h	50;"	d
+hor	../include/routing.h	23;"	d
+initCost	mad_new.cpp	/^initCost (MadNode* source, MadEdge* edge, MadNode* dest)$/;"	f
+inp	../include/input_handler.h	/^{ int inp;   \/\/ start gate ID$/;"	m	struct:__anon7
+lQueue	mad_new.cpp	/^static PrioQueue lQueue;$/;"	v	file:
+lastNode	../include/mad.h	/^  struct mad_node* lastNode;$/;"	m	struct:mad_node	typeref:struct:mad_node::mad_node
+lastTreeCapWeight	../include/mad.h	/^  float lastTreeCapWeight;$/;"	m	struct:nodeCost
+mad_edge	../include/mad.h	/^typedef struct mad_edge {$/;"	s
+mad_edge_cost	../include/mad.h	/^typedef struct mad_edge_cost {$/;"	s
+mad_node	../include/mad.h	/^typedef struct mad_node $/;"	s
+main	GenRoute.cpp	/^main()$/;"	f
+main	Routing.cpp	/^main (int argc, const char *argv[])$/;"	f
+maxCapacity	../include/mad.h	/^  short            maxCapacity;$/;"	m	struct:mad_edge_cost
+minCapacity	../include/mad.h	/^  short            minCapacity;$/;"	m	struct:mad_edge_cost
+n	../include/routing.h	/^  int   n;          \/\/# of north neighbor node$/;"	m	struct:__anon10
+next	../include/routing.h	/^  struct tnetwork *next;         \/\/next tree for the same net$/;"	m	struct:tnetwork	typeref:struct:tnetwork::tnetwork
+next	../include/routing.h	/^  struct tnodelist *next;\/\/pointer to the next adjacent node in list$/;"	m	struct:tnodelist	typeref:struct:tnodelist::tnodelist
+nextEdge	../include/mad.h	/^  struct mad_edge* nextEdge;$/;"	m	struct:mad_edge	typeref:struct:mad_edge::mad_edge
+nodeCost	../include/mad.h	/^typedef struct nodeCost {$/;"	s
+nodeId	../include/mad.h	/^  int              nodeId;$/;"	m	struct:mad_node
+nodeIndex	../include/mad.h	/^  int              nodeIndex;$/;"	m	struct:mad_node
+norout	../include/input_handler.h	52;"	d
+norout	../include/routing.h	25;"	d
+north	../include/input_handler.h	54;"	d
+north	../include/routing.h	27;"	d
+otherNode	../include/mad.h	/^  MadNode*         otherNode;$/;"	m	struct:mad_edge
+out	../include/input_handler.h	/^  int out;   \/\/ finish gate ID$/;"	m	struct:__anon7
+parentNode	../include/mad.h	/^  MadNode*         parentNode;$/;"	m	struct:mad_edge_cost
+pred	../include/routing.h	/^  int   pred;       \/\/# of predecessor node in tree. First all pred = -1$/;"	m	struct:__anon10
+predEdge	../include/mad.h	/^  struct mad_edge* predEdge;$/;"	m	struct:mad_node	typeref:struct:mad_node::mad_edge
+pred_dir	../include/routing.h	/^  short pred_dir;   \/\/direction to the predecessor node (west,norht,...)$/;"	m	struct:__anon10
+printEdgeCost	mad_new.cpp	/^printEdgeCost (NodeCost* srcCost, MadEdge* edge)$/;"	f
+printF	../include/prioQueue.h	/^  prioPrintElem printF;    \/* Function to print the element *\/$/;"	m	struct:PrioQueue
+printNode	mad_new.cpp	/^printNode (void *elem)$/;"	f	file:
+printSubTree	mad_new.cpp	/^printSubTree (TNODE* Node_All, MadNode* node)$/;"	f
+prioCleanup	prioQueue.cpp	/^prioCleanup (PrioQueue* queue)$/;"	f
+prioCompFunc	../include/prioQueue.h	/^typedef int (*prioCompFunc)(void* elem1, void* elem2);$/;"	t
+prioGetPos	../include/prioQueue.h	/^typedef int (*prioGetPos)(void *elem);$/;"	t
+prioHeapify	prioQueue.cpp	/^prioHeapify (PrioQueue* queue, int rootPos)$/;"	f
+prioPrintElem	../include/prioQueue.h	/^typedef int (*prioPrintElem)(void *elem);$/;"	t
+prioQueueAdd	prioQueue.cpp	/^prioQueueAdd (PrioQueue* queue, void *elem)$/;"	f
+prioQueueHead	prioQueue.cpp	/^prioQueueHead (PrioQueue* queue)$/;"	f
+prioQueuePop	prioQueue.cpp	/^prioQueuePop (PrioQueue* queue)$/;"	f
+prioQueuePrint	prioQueue.cpp	/^prioQueuePrint (PrioQueue* queue)$/;"	f
+prioReduceCost	prioQueue.cpp	/^prioReduceCost (PrioQueue* queue, void *elem)$/;"	f
+prioSetPos	../include/prioQueue.h	/^typedef int (*prioSetPos)(void *elem, int newPos);$/;"	t
+priorityQueue	../include/mad.h	/^typedef struct priorityQueue {$/;"	s
+pruneTree	mad_new.cpp	/^pruneTree (MadNode* nodes, MadNode* lastNode, PrioQueue* queue)$/;"	f
+qSize	../include/prioQueue.h	/^  int      qSize;    \/* Number of elements in the queue *\/$/;"	m	struct:PrioQueue
+queuePos	../include/mad.h	/^  short            queuePos;$/;"	m	struct:mad_node
+queueSize	../include/mad.h	/^  int           queueSize;$/;"	m	struct:priorityQueue
+r_0	../include/input_handler.h	/^  float r_0;                   \/\/ drice resistance$/;"	m	struct:__anon3
+res	../include/input_handler.h	/^  float res;      \/\/resistance$/;"	m	struct:__anon1
+res	../include/routing.h	/^  float res;      \/\/resistance$/;"	m	struct:__anon8
+resVal	../include/mad.h	/^  float            resVal;$/;"	m	struct:mad_edge_cost
+res_f	../include/input_handler.h	/^  float res_f;    \/\/ fall resistance$/;"	m	struct:__anon2
+res_r	../include/input_handler.h	/^  float res_r;    \/\/ rise resistance$/;"	m	struct:__anon2
+runDijkstra	mad_new.cpp	/^runDijkstra (MadNode* nodes, MadNode* rootNode, int numSinks)$/;"	f
+s	../include/routing.h	/^  int   s;          \/\/# of south neighbor node$/;"	m	struct:__anon10
+setCost	mad_new.cpp	/^setCost (MadNode* fromNode, MadEdge* edge, MadNode* toNode)$/;"	f
+setFinalCost	mad_new.cpp	/^setFinalCost (MadNode* fromNode, MadEdge* edge, MadNode* toNode)$/;"	f
+setPos	../include/prioQueue.h	/^  prioSetPos    setPos;    \/* Function to set queue position in the element *\/$/;"	m	struct:PrioQueue
+setPrioPos	mad_new.cpp	/^setPrioPos (void *elem, int newPos)$/;"	f	file:
+sinkCount	../include/mad.h	/^  short            sinkCount;$/;"	m	struct:mad_node
+sourceNode	../include/mad.h	/^  MadNode*         sourceNode;$/;"	m	struct:mad_edge
+south	../include/input_handler.h	56;"	d
+south	../include/routing.h	29;"	d
+status	../include/mad.h	/^  short            status;$/;"	m	struct:mad_node
+tnetwork	../include/routing.h	/^typedef struct tnetwork$/;"	s
+tnodelist	../include/routing.h	/^typedef struct tnodelist \/\/list of adjacent nodes$/;"	s
+treeCap	../include/mad.h	/^  float treeCap;$/;"	m	struct:nodeCost
+treeCost	../include/mad.h	/^  float treeCost;  \/\/ effectively the delay from source$/;"	m	struct:nodeCost
+treeRes	../include/mad.h	/^  float treeRes;$/;"	m	struct:nodeCost
+type	../include/input_handler.h	/^  short type;     \/\/ type (0=UNKNOWN, 1=INV, 2=NOINV)$/;"	m	struct:__anon2
+type	../include/routing.h	/^  short type;       \/\/node's type (-1 - Hanan's node, 0 - root, 1 - sink)$/;"	m	struct:__anon10
+u	../include/routing.h	/^  int   u;          \/\/# of up neighbor node$/;"	m	struct:__anon10
+up	../include/input_handler.h	57;"	d
+up	../include/routing.h	30;"	d
+up_cap	../include/input_handler.h	/^  float up_cap;   \/\/up via capacitance. In the 1st version = 0$/;"	m	struct:__anon1
+up_cap	../include/routing.h	/^  float up_cap;   \/\/up via capacitance. I the 1st version = 0$/;"	m	struct:__anon8
+up_res	../include/input_handler.h	/^  float up_res;   \/\/up via resistance$/;"	m	struct:__anon1
+up_res	../include/routing.h	/^  float up_res;   \/\/up via resistance$/;"	m	struct:__anon8
+updateCost	mad_new.cpp	/^updateCost (MadNode* source, MadEdge* edge, MadNode* dest)$/;"	f
+updateTreeForSink	mad_new.cpp	/^updateTreeForSink (PrioQueue* queue, MadNode* sinkNode)$/;"	f
+ver	../include/input_handler.h	51;"	d
+ver	../include/routing.h	24;"	d
+w	../include/routing.h	/^  int   w;          \/\/# of west neighbor node$/;"	m	struct:__anon10
+west	../include/input_handler.h	53;"	d
+west	../include/routing.h	26;"	d
+x	../include/input_handler.h	/^  int   x;        \/\/x-coordinate$/;"	m	struct:__anon4
+x	../include/routing.h	/^  int   x;          \/\/x-coordinate$/;"	m	struct:__anon10
+x	../include/routing.h	/^{ int   x;             \/\/x-coordinate$/;"	m	struct:__anon9
+y	../include/input_handler.h	/^  int   y;        \/\/y-coordinate$/;"	m	struct:__anon4
+y	../include/routing.h	/^  int   y;             \/\/y-coordinate$/;"	m	struct:__anon9
+y	../include/routing.h	/^  int   y;          \/\/y-coordinate$/;"	m	struct:__anon10
+z	../include/input_handler.h	/^  short z;        \/\/z-coordinate (layer #)$/;"	m	struct:__anon4
+z	../include/routing.h	/^  short z;             \/\/z-coordinate (layer #)$/;"	m	struct:__anon9
+z	../include/routing.h	/^  short z;          \/\/z-coordinate (layer #)$/;"	m	struct:__anon10

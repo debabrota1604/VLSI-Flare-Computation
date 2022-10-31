@@ -1,0 +1,26 @@
+[3;J[H[2Jexecuting make clean...
+
+rm -f bin/router lnx86/GenTrees.o lnx86/Gradient2.o lnx86/ReadData.o lnx86/WriteRoutSol.o lnx86/GlobalResource.o lnx86/prioQueue.o lnx86/Routing.o lnx86/Debug.o lnx86/IMAD_q.o lnx86/mad.o
+executing make... 
+
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/InputGenlib.o src/InputGenlib.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/InputGri.o src/InputGri.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/InputSch.o src/InputSch.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/Timing.o src/Timing.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/RankCalc.o src/RankCalc.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/GenRoute.o src/GenRoute.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/WriteDat.o src/WriteDat.cpp
+g++ -lm -o bin/reader lnx86/InputGenlib.o lnx86/InputGri.o lnx86/InputSch.o lnx86/Timing.o lnx86/RankCalc.o lnx86/GenRoute.o lnx86/WriteDat.o
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/GenTrees.o src/GenTrees.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/Gradient2.o src/Gradient2.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/ReadData.o src/ReadData.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/WriteRoutSol.o src/WriteRoutSol.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/GlobalResource.o src/GlobalResource.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/prioQueue.o src/prioQueue.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/Routing.o src/Routing.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/Debug.o src/Debug.cpp
+g++ -Iinclude -c -Wno-deprecated -O2 -DNDEBUG -DUSE_NEW_IMAD -o lnx86/mad_new.o src/mad_new.cpp
+g++ -lm -o bin/new_router lnx86/GenTrees.o lnx86/Gradient2.o lnx86/ReadData.o lnx86/WriteRoutSol.o lnx86/GlobalResource.o lnx86/prioQueue.o lnx86/Routing.o lnx86/Debug.o lnx86/mad_new.o
+make executed...
+Running the program with file ibm01_mad.dat...
+

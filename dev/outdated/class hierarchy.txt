@@ -1,0 +1,23 @@
+Root of all classes is Info.class.
+Info uses object of Net.
+Net uses object of Tree.
+Tree uses object of Node.
+Dimension is a general structure which is used to hold the dimension of nodes.
+
+
+The whole input can be taken into memory by initializing the class objects. After that computations can be done.
+
+How to read the data?
+	The input file is sequential. So, the input should be read in a loop. 
+	At the deepest nesting there is the Node object which is to be initialized first.
+	Then the pointer to the Node object is to be used in the Tree object.
+	Similarly the upper levels are to be initialized.
+	As the Info class stores the basic info about the number of nets and number of trees
+	for each net, we can end this parsing in a systemetic way.
+	
+	So, at the start, we need to read the initial data for info class. But we cannot initialize
+	the Net objects at this very beginning. So, we need to define the unparameterized default 
+	constructors for each class. After that the object is created, we need to use setter method at
+	each class to insert the actual data.
+	
+	

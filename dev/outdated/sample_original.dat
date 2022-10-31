@@ -1,0 +1,730 @@
+  No of nodes in X = 64
+  No of nodes in Y = 64
+  No of Layers = 2
+  Number_of_nets= 3
+  Max_Number_of_Trees= 8
+  MaxIter= 11
+  Max_qq= 2
+    *Net_Id= 0
+      drive(r_0)=  0.965000
+      C_0=  1.870000
+      Number_of_trees  1
+     *Tree= 0 
+      Number_of_nodes=  3
+        *Node#  1
+        *PinId  1
+          Global#  3989
+          Global#_of_node-predecessor  4053
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  20   62   1
+          Node_capacitance=  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  2 pred_node 4053
+          Delay_to_the_node  1.830710
+          Edge_delay_with_end_in_the_node  0.026160
+          Capacitance_of_subtree_with_root_in_the_node  1.400000
+        *Node#  2
+        *PinId  2
+          Global#  3989
+          Global#_of_node-predecessor  4053
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  20   62   1
+          Node_capacitance=  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  2 pred_node 4053
+          Delay_to_the_node  1.830710
+          Edge_delay_with_end_in_the_node  0.026160
+          Capacitance_of_subtree_with_root_in_the_node  1.400000
+        *Node#  3
+        *PinId  0
+          Global#  4053
+          Global#_of_node-predecessor  4053
+          Node_type(0-root,1-sink,2-intermediate)  0
+          (x,y,z):  20   63   1
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  0 pred_node 4053
+          Delay_to_the_node  1.804550
+          Edge_delay_with_end_in_the_node  1.804550
+          Capacitance_of_subtree_with_root_in_the_node  1.870000
+    *Net_Id= 1
+      drive(r_0)=  0.965000
+      C_0=  1.170486
+      Number_of_trees  1
+     *Tree= 0 
+      Number_of_nodes=  4
+        *Node#  1
+        *PinId  0
+          Global#  4053
+          Global#_of_node-predecessor  4053
+          Node_type(0-root,1-sink,2-intermediate)  0
+          (x,y,z):  20   63   1
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  0 pred_node 4053
+          Delay_to_the_node  1.129519
+          Edge_delay_with_end_in_the_node  1.129519
+          Capacitance_of_subtree_with_root_in_the_node  1.170486
+        *Node#  2
+        *PinId  1
+          Global#  4054
+          Global#_of_node-predecessor  8150
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  21   63   1
+          Node_capacitance=  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8150
+          Delay_to_the_node  1.162009
+          Edge_delay_with_end_in_the_node  0.006560
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  3
+        *PinId  0
+          Global#  8149
+          Global#_of_node-predecessor  4053
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  20   63   2
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  6 pred_node 4053
+          Delay_to_the_node  1.140485
+          Edge_delay_with_end_in_the_node  0.010966
+          Capacitance_of_subtree_with_root_in_the_node  1.170243
+        *Node#  4
+        *PinId  0
+          Global#  8150
+          Global#_of_node-predecessor  8149
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  21   63   2
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8149
+          Delay_to_the_node  1.155449
+          Edge_delay_with_end_in_the_node  0.014964
+          Capacitance_of_subtree_with_root_in_the_node  0.700243
+    *Net_Id= 2
+      drive(r_0)=  0.965000
+      C_0=  1.170486
+      Number_of_trees  1
+     *Tree= 0 
+      Number_of_nodes=  4
+        *Node#  1
+        *PinId  1
+          Global#  3740
+          Global#_of_node-predecessor  7836
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  27   58   1
+          Node_capacitance=  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 7836
+          Delay_to_the_node  1.162009
+          Edge_delay_with_end_in_the_node  0.006560
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  2
+        *PinId  0
+          Global#  3741
+          Global#_of_node-predecessor  3741
+          Node_type(0-root,1-sink,2-intermediate)  0
+          (x,y,z):  28   58   1
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  0 pred_node 3741
+          Delay_to_the_node  1.129519
+          Edge_delay_with_end_in_the_node  1.129519
+          Capacitance_of_subtree_with_root_in_the_node  1.170486
+        *Node#  3
+        *PinId  0
+          Global#  7836
+          Global#_of_node-predecessor  7837
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  27   58   2
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  3 pred_node 7837
+          Delay_to_the_node  1.155449
+          Edge_delay_with_end_in_the_node  0.014964
+          Capacitance_of_subtree_with_root_in_the_node  0.700243
+        *Node#  4
+        *PinId  0
+          Global#  7837
+          Global#_of_node-predecessor  3741
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  28   58   2
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  6 pred_node 3741
+          Delay_to_the_node  1.140485
+          Edge_delay_with_end_in_the_node  0.010966
+          Capacitance_of_subtree_with_root_in_the_node  1.170243
+    *Net_Id= 3
+      drive(r_0)=  0.965000
+      C_0=  8.901458
+      Number_of_trees  3
+     *Tree= 0 
+      Number_of_nodes=  13
+        *Node#  1
+        *PinId  0
+          Global#  3922
+          Global#_of_node-predecessor  3922
+          Node_type(0-root,1-sink,2-intermediate)  0
+          (x,y,z):  17   61   1
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  0 pred_node 3922
+          Delay_to_the_node  8.589907
+          Edge_delay_with_end_in_the_node  8.589907
+          Capacitance_of_subtree_with_root_in_the_node  8.901458
+        *Node#  2
+        *PinId  4
+          Global#  3923
+          Global#_of_node-predecessor  8019
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  18   61   1
+          Node_capacitance=  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8019
+          Delay_to_the_node  8.818532
+          Edge_delay_with_end_in_the_node  0.006560
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  3
+        *PinId  6
+          Global#  3926
+          Global#_of_node-predecessor  8022
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  21   61   1
+          Node_capacitance=  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8022
+          Delay_to_the_node  9.166741
+          Edge_delay_with_end_in_the_node  0.017523
+          Capacitance_of_subtree_with_root_in_the_node  1.870000
+        *Node#  4
+        *PinId  5
+          Global#  3928
+          Global#_of_node-predecessor  8024
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  23   61   1
+          Node_capacitance=  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8024
+          Delay_to_the_node  9.309496
+          Edge_delay_with_end_in_the_node  0.032894
+          Capacitance_of_subtree_with_root_in_the_node  3.510486
+        *Node#  5
+        *PinId  3
+          Global#  3990
+          Global#_of_node-predecessor  3926
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  21   62   1
+          Node_capacitance=  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  4 pred_node 3926
+          Delay_to_the_node  9.181702
+          Edge_delay_with_end_in_the_node  0.014960
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  6
+        *PinId  1
+          Global#  3992
+          Global#_of_node-predecessor  3928
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  23   62   1
+          Node_capacitance=  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  4 pred_node 3928
+          Delay_to_the_node  9.350703
+          Edge_delay_with_end_in_the_node  0.041208
+          Capacitance_of_subtree_with_root_in_the_node  2.340486
+        *Node#  7
+        *PinId  2
+          Global#  3994
+          Global#_of_node-predecessor  8090
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  25   62   1
+          Node_capacitance=  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8090
+          Delay_to_the_node  9.410082
+          Edge_delay_with_end_in_the_node  0.006560
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  8
+        *PinId  0
+          Global#  8018
+          Global#_of_node-predecessor  3922
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  17   61   2
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  6 pred_node 3922
+          Delay_to_the_node  8.673312
+          Edge_delay_with_end_in_the_node  0.083406
+          Capacitance_of_subtree_with_root_in_the_node  8.901215
+        *Node#  9
+        *PinId  0
+          Global#  8019
+          Global#_of_node-predecessor  8018
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  18   61   2
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8018
+          Delay_to_the_node  8.811972
+          Edge_delay_with_end_in_the_node  0.138659
+          Capacitance_of_subtree_with_root_in_the_node  8.431214
+        *Node#  10
+        *PinId  0
+          Global#  8022
+          Global#_of_node-predecessor  8019
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  21   61   2
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8019
+          Delay_to_the_node  9.149219
+          Edge_delay_with_end_in_the_node  0.337247
+          Capacitance_of_subtree_with_root_in_the_node  6.320971
+        *Node#  11
+        *PinId  0
+          Global#  8024
+          Global#_of_node-predecessor  8022
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  23   61   2
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8022
+          Delay_to_the_node  9.276602
+          Edge_delay_with_end_in_the_node  0.127383
+          Capacitance_of_subtree_with_root_in_the_node  3.510729
+        *Node#  12
+        *PinId  0
+          Global#  8088
+          Global#_of_node-predecessor  3992
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  23   62   2
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  6 pred_node 3992
+          Delay_to_the_node  9.366074
+          Edge_delay_with_end_in_the_node  0.015370
+          Capacitance_of_subtree_with_root_in_the_node  1.640243
+        *Node#  13
+        *PinId  0
+          Global#  8090
+          Global#_of_node-predecessor  8088
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  25   62   2
+          Node_capacitance=  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8088
+          Delay_to_the_node  9.403522
+          Edge_delay_with_end_in_the_node  0.037448
+          Capacitance_of_subtree_with_root_in_the_node  0.700243
+     *Tree=  1
+      Number_of_nodes  13
+        *Node#  1
+        *PinId  0
+          Global#  3922
+          Global#_of_node-predecessor  3922
+          Node_type(0-root,1-sink,2-intermediate)  0
+          (x,y,z):  17   61   1
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  0 pred_node 3922
+          Delay_to_the_node  8.589907
+          Edge_delay_with_end_in_the_node  8.589907
+          Capacitance_of_subtree_with_root_in_the_node  8.901458
+        *Node#  2
+        *PinId  4
+          Global#  3923
+          Global#_of_node-predecessor  8019
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  18   61   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8019
+          Delay_to_the_node  8.818532
+          Edge_delay_with_end_in_the_node  0.006560
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  3
+        *PinId  6
+          Global#  3926
+          Global#_of_node-predecessor  8022
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  21   61   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8022
+          Delay_to_the_node  9.166741
+          Edge_delay_with_end_in_the_node  0.017523
+          Capacitance_of_subtree_with_root_in_the_node  1.870000
+        *Node#  4
+        *PinId  5
+          Global#  3928
+          Global#_of_node-predecessor  8024
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  23   61   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8024
+          Delay_to_the_node  9.309496
+          Edge_delay_with_end_in_the_node  0.032894
+          Capacitance_of_subtree_with_root_in_the_node  3.510486
+        *Node#  5
+        *PinId  3
+          Global#  3990
+          Global#_of_node-predecessor  3926
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  21   62   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  4 pred_node 3926
+          Delay_to_the_node  9.181702
+          Edge_delay_with_end_in_the_node  0.014960
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  6
+        *PinId  1
+          Global#  3992
+          Global#_of_node-predecessor  3928
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  23   62   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  4 pred_node 3928
+          Delay_to_the_node  9.350703
+          Edge_delay_with_end_in_the_node  0.041208
+          Capacitance_of_subtree_with_root_in_the_node  2.340486
+        *Node#  7
+        *PinId  2
+          Global#  3994
+          Global#_of_node-predecessor  8090
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  25   62   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8090
+          Delay_to_the_node  9.410082
+          Edge_delay_with_end_in_the_node  0.006560
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  8
+        *PinId  0
+          Global#  8018
+          Global#_of_node-predecessor  3922
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  17   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  6 pred_node 3922
+          Delay_to_the_node  8.673312
+          Edge_delay_with_end_in_the_node  0.083406
+          Capacitance_of_subtree_with_root_in_the_node  8.901215
+        *Node#  9
+        *PinId  0
+          Global#  8019
+          Global#_of_node-predecessor  8018
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  18   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8018
+          Delay_to_the_node  8.811972
+          Edge_delay_with_end_in_the_node  0.138659
+          Capacitance_of_subtree_with_root_in_the_node  8.431214
+        *Node#  10
+        *PinId  0
+          Global#  8022
+          Global#_of_node-predecessor  8019
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  21   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8019
+          Delay_to_the_node  9.149219
+          Edge_delay_with_end_in_the_node  0.337247
+          Capacitance_of_subtree_with_root_in_the_node  6.320971
+        *Node#  11
+        *PinId  0
+          Global#  8024
+          Global#_of_node-predecessor  8022
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  23   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8022
+          Delay_to_the_node  9.276602
+          Edge_delay_with_end_in_the_node  0.127383
+          Capacitance_of_subtree_with_root_in_the_node  3.510729
+        *Node#  12
+        *PinId  0
+          Global#  8088
+          Global#_of_node-predecessor  3992
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  23   62   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  6 pred_node 3992
+          Delay_to_the_node  9.366074
+          Edge_delay_with_end_in_the_node  0.015370
+          Capacitance_of_subtree_with_root_in_the_node  1.640243
+        *Node#  13
+        *PinId  0
+          Global#  8090
+          Global#_of_node-predecessor  8088
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  25   62   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8088
+          Delay_to_the_node  9.403522
+          Edge_delay_with_end_in_the_node  0.037448
+          Capacitance_of_subtree_with_root_in_the_node  0.700243
+     *Tree=  2
+      Number_of_nodes  13
+        *Node#  1
+        *PinId  0
+          Global#  3922
+          Global#_of_node-predecessor  3922
+          Node_type(0-root,1-sink,2-intermediate)  0
+          (x,y,z):  17   61   1
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  0 pred_node 3922
+          Delay_to_the_node  8.589907
+          Edge_delay_with_end_in_the_node  8.589907
+          Capacitance_of_subtree_with_root_in_the_node  8.901458
+        *Node#  2
+        *PinId  4
+          Global#  3923
+          Global#_of_node-predecessor  8019
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  18   61   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8019
+          Delay_to_the_node  8.818532
+          Edge_delay_with_end_in_the_node  0.006560
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  3
+        *PinId  6
+          Global#  3926
+          Global#_of_node-predecessor  8022
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  21   61   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8022
+          Delay_to_the_node  9.208445
+          Edge_delay_with_end_in_the_node  0.059226
+          Capacitance_of_subtree_with_root_in_the_node  6.320728
+        *Node#  4
+        *PinId  5
+          Global#  3928
+          Global#_of_node-predecessor  3992
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  23   61   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  2 pred_node 8024
+          Delay_to_the_node  9.496178
+          Edge_delay_with_end_in_the_node  0.014960
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  5
+        *PinId  3
+          Global#  3990
+          Global#_of_node-predecessor  3926
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  21   62   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  4 pred_node 3926
+          Delay_to_the_node  9.294617
+          Edge_delay_with_end_in_the_node  0.086172
+          Capacitance_of_subtree_with_root_in_the_node  5.150729
+        *Node#  6
+        *PinId  1
+          Global#  3992
+          Global#_of_node-predecessor  8088
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  23   62   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 3928
+          Delay_to_the_node  9.481217
+          Edge_delay_with_end_in_the_node  0.017523
+          Capacitance_of_subtree_with_root_in_the_node  1.870000
+        *Node#  7
+        *PinId  2
+          Global#  3994
+          Global#_of_node-predecessor  8090
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  25   62   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8090
+          Delay_to_the_node  9.507703
+          Edge_delay_with_end_in_the_node  0.006560
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  8
+        *PinId  0
+          Global#  8018
+          Global#_of_node-predecessor  3922
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  17   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  6 pred_node 3922
+          Delay_to_the_node  8.673312
+          Edge_delay_with_end_in_the_node  0.083406
+          Capacitance_of_subtree_with_root_in_the_node  8.901215
+        *Node#  9
+        *PinId  0
+          Global#  8019
+          Global#_of_node-predecessor  8018
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  18   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8018
+          Delay_to_the_node  8.811972
+          Edge_delay_with_end_in_the_node  0.138659
+          Capacitance_of_subtree_with_root_in_the_node  8.431214
+        *Node#  10
+        *PinId  0
+          Global#  8022
+          Global#_of_node-predecessor  8019
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  21   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8019
+          Delay_to_the_node  9.149219
+          Edge_delay_with_end_in_the_node  0.337247
+          Capacitance_of_subtree_with_root_in_the_node  6.320971
+        *Node#  11
+        *PinId  0
+          Global#  8086
+          Global#_of_node-predecessor  3990
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  21   62   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  6 pred_node 8022
+          Delay_to_the_node  9.336319
+          Edge_delay_with_end_in_the_node  0.041702
+          Capacitance_of_subtree_with_root_in_the_node  4.450486
+        *Node#  12
+        *PinId  0
+          Global#  8088
+          Global#_of_node-predecessor  8086
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  23   62   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 3992
+          Delay_to_the_node  9.463695
+          Edge_delay_with_end_in_the_node  0.127376
+          Capacitance_of_subtree_with_root_in_the_node  3.510486
+        *Node#  13
+        *PinId  0
+          Global#  8090
+          Global#_of_node-predecessor  8088
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  25   62   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8088
+          Delay_to_the_node  9.501143
+          Edge_delay_with_end_in_the_node  0.037448
+          Capacitance_of_subtree_with_root_in_the_node  0.700243
+     *Tree=  3
+      Number_of_nodes  13
+        *Node#  1
+        *PinId  0
+          Global#  3922
+          Global#_of_node-predecessor  3922
+          Node_type(0-root,1-sink,2-intermediate)  0
+          (x,y,z):  17   61   1
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  0 pred_node 3922
+          Delay_to_the_node  9.043222
+          Edge_delay_with_end_in_the_node  9.043222
+          Capacitance_of_subtree_with_root_in_the_node  9.371215
+        *Node#  2
+        *PinId  4
+          Global#  3923
+          Global#_of_node-predecessor  8019
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  18   61   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8019
+          Delay_to_the_node  9.283765
+          Edge_delay_with_end_in_the_node  0.006560
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  3
+        *PinId  6
+          Global#  3926
+          Global#_of_node-predecessor  8022
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  21   61   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8022
+          Delay_to_the_node  9.654522
+          Edge_delay_with_end_in_the_node  0.017523
+          Capacitance_of_subtree_with_root_in_the_node  1.870000
+        *Node#  4
+        *PinId  5
+          Global#  3928
+          Global#_of_node-predecessor  8024
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  23   61   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 8024
+          Delay_to_the_node  9.796938
+          Edge_delay_with_end_in_the_node  0.017523
+          Capacitance_of_subtree_with_root_in_the_node  1.870000
+        *Node#  5
+        *PinId  0
+          Global#  3930
+          Global#_of_node-predecessor  8026
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  25   61   1
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  5 pred_node 3926
+          Delay_to_the_node  9.842867
+          Edge_delay_with_end_in_the_node  0.010964
+          Capacitance_of_subtree_with_root_in_the_node  1.170000
+        *Node#  6
+        *PinId  3
+          Global#  3990
+          Global#_of_node-predecessor  3926
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  21   62   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  4 pred_node 3928
+          Delay_to_the_node  9.669482
+          Edge_delay_with_end_in_the_node  0.014960
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  7
+        *PinId  1
+          Global#  3992
+          Global#_of_node-predecessor  3928
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  23   62   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  4 pred_node 8090
+          Delay_to_the_node  9.811898
+          Edge_delay_with_end_in_the_node  0.014960
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  8
+        *PinId  2
+          Global#  3994
+          Global#_of_node-predecessor  3930
+          Node_type(0-root,1-sink,2-intermediate)  1
+          (x,y,z):  25   62   1
+          Node_capacitance  0.700000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  4 pred_node 3922
+          Delay_to_the_node  9.857827
+          Edge_delay_with_end_in_the_node  0.014960
+          Capacitance_of_subtree_with_root_in_the_node  0.700000
+        *Node#  9
+        *PinId  0
+          Global#  8018
+          Global#_of_node-predecessor  3922
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  17   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  6 pred_node 8018
+          Delay_to_the_node  9.131029
+          Edge_delay_with_end_in_the_node  0.087807
+          Capacitance_of_subtree_with_root_in_the_node  9.370972
+        *Node#  10
+        *PinId  0
+          Global#  8019
+          Global#_of_node-predecessor  8018
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  18   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8019
+          Delay_to_the_node  9.277205
+          Edge_delay_with_end_in_the_node  0.146176
+          Capacitance_of_subtree_with_root_in_the_node  8.900971
+        *Node#  11
+        *PinId  0
+          Global#  8022
+          Global#_of_node-predecessor  8019
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  21   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8022
+          Delay_to_the_node  9.636999
+          Edge_delay_with_end_in_the_node  0.359795
+          Capacitance_of_subtree_with_root_in_the_node  6.790729
+        *Node#  12
+        *PinId  0
+          Global#  8024
+          Global#_of_node-predecessor  8022
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  23   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 3992
+          Delay_to_the_node  9.779415
+          Edge_delay_with_end_in_the_node  0.142416
+          Capacitance_of_subtree_with_root_in_the_node  3.980486
+        *Node#  13
+        *PinId  0
+          Global#  8026
+          Global#_of_node-predecessor  8024
+          Node_type(0-root,1-sink,2-intermediate)  -1
+          (x,y,z):  25   61   2
+          Node_capacitance  0.000000
+          direction_to_the_predecessor(1-west,2-north,3-east,4-south,5-up,6-down)  1 pred_node 8088
+          Delay_to_the_node  9.831903
+          Edge_delay_with_end_in_the_node  0.052488
+          Capacitance_of_subtree_with_root_in_the_node  1.170243
